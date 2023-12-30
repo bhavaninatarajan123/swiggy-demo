@@ -1,0 +1,182 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    
+    
+    -webkit-tap-highlight-color: rgb(58 30 151);
+    font-family: "Basis Grotesque Pro", Arial, sans-serif;
+    outline: none;
+}
+
+.head-container{
+    width: 100%;
+    height: 12vh;
+}
+.head-col{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.head-col-3{
+    background-color: #dcdcdc;
+    border-radius: 10px;
+    width: 20%;
+    height: 7vh;
+    text-align: center;
+    margin-top: 1%;
+    display: flex;
+    
+    padding-top: 7px;
+}
+
+#logo-2{
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+#search-1{
+    padding-top: 5px;
+    padding-left: 18px;
+}
+.head-col-2{
+    padding-top: 20px;
+    display: flex;
+}
+
+#down{
+    padding-left: 10px;
+    color :orangered;
+    font-size: 20px;
+}
+#down-1{
+    color :orangered;
+}
+
+.banner-container{
+        width: 100%;
+        height: 300px;
+        background: linear-gradient(3deg, rgb(201, 188, 244) 0%, rgb(255, 255, 255) 95.83%);
+        border-bottom-left-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+        outline: none;
+        overflow: hidden;
+
+}
+
+.banner-col{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.banner-col h1{
+    padding-top: 5%;
+    font-size: 45px;
+}
+
+.col-card img{
+    height: 200px;
+    width: 100%;
+    border-radius: 30px ;
+
+}
+/* dynamic */
+
+#swiggy-cards{
+    display: flex;
+    flex-wrap:wrap;
+    width: 100%;
+    background-color: #dcdcdc;
+    
+    
+} 
+/*  
+.col-card{
+    width: 25%;
+    padding: 30px;
+   
+    
+}  */
+
+#swi-condainer{
+    width: 100%;
+    margin: auto;
+}
+/* #filter-section{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+} */
+ /* p , h4 {
+    text-align: center;
+    padding: 10px;
+}  */
+
+/* .btn{
+    text-align: center;
+    padding: 15px;
+    border-radius: 20px 20px;
+    margin-left: 55px;
+    border-color:#dcdcdc;
+    border:2px solid gray;
+    
+} */
+#filter-section h1{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.icon-div-green{
+    
+    color: green;
+
+}
+
+.icon-div-orange{
+    color: yellow;
+}
+.icon-div-red{
+    color: red;
+}
+
+
+.fa{
+    
+    font-size: 150%;
+}
+.icon-Div{
+    display: flex;
+} 
+.icon-Div p{
+    padding-top: 5px;
+}
+
+/* footersection */
+
+#footer{
+    background-color:#dcdcdc;
+    width: 100%;
+    /* height: 80vh; */
+    color: white;
+    background-color: black;
+    margin-top: 5px;
+    padding-top: 5%;
+    padding-left: 15%;
+    
+}
+/* .footer-row{
+    display: flex;
+    width: 100%;
+
+
+} */
+/* .footer-col-1,.footer-col-2,.footer-col-3,.footer-col-4{
+    width: 25%;
+    
+} */
+.footer-col-1 p,.footer-col-2 p,.footer-col-3 p,.footer-col-4 p{
+    padding: 10px;
+}
+
+
+

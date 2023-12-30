@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>swiggy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"href="css/style.css">
+    <link rel="stylesheet"href="css/media.css">
+    
+    
+</head>
+<body>
+    <section>
+        <header>
+            <div class="head-container">
+                <div class="head-row" >
+                    <div class="head-col">
+                        <div class="head-logo">
+                            <img src="image/logo.png" height="70px" width="200px">
+                        </div>   
+                        <div class="head-col-2">
+                            <h3><i id="down-1" class="fa fa-paper-plane-o" aria-hidden="true">&nbsp;</i>&nbsp;set your precise Location</h3>&nbsp;
+                            <i id="down" class="fa fa-angle-down" aria-hidden="true"></i>
+                        </div> 
+                        <div class="head-col-3">
+                            <p id="search-1"> search for restaurant and food </p>
+                            <i  id="search-1" class="fa fa-search" aria-hidden="true"></i>
+                                   
+                        </div>
+
+                        <div class="head-col-4">
+                            <i  id="logo-2"class="fa fa-user-circle-o" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </header>
+                <div class="banner-container">
+                    <div class="banner-row">
+                        <div class="banner-col">
+                            <h1>Restaurants Near Me</h1>
+                            <img src="image/head-1.jpg" height="300px" width="500px">
+                        </div>
+                    </div>
+                </div>
+
+                <div id="filter-section">
+
+                    <h1>Popular restaurants near me</h1>
+                    <button class="btn" onclick="filtering()">Relevents</button>
+                    <button class="btn" onclick="sortRatings()">Rating 4.0+</button>
+                    <button class="btn" onclick="pureveg()">Pure Veg</button>
+                    <button class="btn" onclick="offers()">fast Delivery</button> 
+                    <button class="btn" onclick="amount300()">RS-300 to Rs-600</button>
+                    <button class="btn" onclick="lessthan300()">Lessthan Rs-300</button>
+                </div>
+                <div id="swi-condainer">
+                    <div id="swiggy-cards">
+                     </div>
+                </div>
+
+            </div>
+        
+    </section>
+<!--footer section-->
+    <footer id="footer">
+        <div class="footer-container">
+            <div class="footer-row">
+                <div class="footer-col-1">
+                    <div class="footer-logo">
+                        <img src="image/logo 2.png">
+                    </div>
+                            <h1>Swiggy</h1>
+                            <p>© 2023 Bundl </p>
+                            <p>Technologies Pvt. Ltd</p>
+                </div>
+                <div class="footer-col-2">
+                    <h3>Company</h3>
+                    <p>About</p>
+                    <p>Careers</p>
+                    <p>Team </p>
+                    <p>Swiggy One</p>
+                    <p>Swiggy Instamart</p>
+                    <p>Swiggy Genie</p>
+                </div>
+                <div class="footer-col-3">
+                    <div class="col-3-1">
+                        <h3>Contact us</h3>
+                        <p>Help & Support</p>
+                        <p>Partner with us</p>
+                        <p>Ride with us</p>
+                    </div>
+                    <div class="col-3-1">
+                        <h3>Legal</h3>
+                        <p>Terms & Conditions</p>
+                        <p>Cookie Policy</p>
+                        <p>Privacy policy</p>
+                    </div>
+                </div>
+                <div class="footer-col-4">
+                    <h3>We deliver to:</h3>
+                    <p>Bangalore</p>
+                    <p>Gurgaon</p>
+                    <p>Hyderabad</p>
+                    <p>Delhi</p>
+                    <p>Mumbai</p>
+                    <p>Pune</p>
+
+                </div>
+
+
+            </div>
+        </div>
+
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
